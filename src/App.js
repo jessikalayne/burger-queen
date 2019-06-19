@@ -1,21 +1,10 @@
 import React from 'react';
+import Home from './pages/home';
 import './App.css';
-import firebase from "./firebaseConfig";
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
 
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1>#partiuBurgerQueen</h1>
-        </header>
-      </div>
-    );
-  }
+function App(){
+  return <Home/>;
 }
 
 export default App;
+  
